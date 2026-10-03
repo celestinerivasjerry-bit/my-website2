@@ -363,6 +363,7 @@
                 </div>
             </div>
 
+            <!-- Content Creator -->
             <div class="glass-card rounded-2xl p-6 sm:p-8 space-y-4">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-4">
                     <div>
@@ -385,13 +386,15 @@
                     </li>
                 </ul>
             </div>
+
+            <!-- IAIN Ponorogo Internship -->
             <div class="glass-card rounded-2xl p-6 sm:p-8 space-y-4">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-4">
                     <div>
                         <h3 class="text-xl font-bold text-white">IT Support & Web Developer</h3>
-                        <p class="text-xs font-mono text-cyan-400">IAIN Ponorogo (3-Month Internship Program | PKL)</p>
+                        <p id="txt-iain-sub" class="text-xs font-mono text-cyan-400">IAIN Ponorogo (Program Magang 3 Bulan | PKL)</p>
                     </div>
-                    <span id="txt-exp-date" class="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-800 text-cyan-300 font-mono text-xs w-max">
+                    <span id="txt-iain-date" class="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-800 text-cyan-300 font-mono text-xs w-max">
                         Januari 2019 - Maret 2019
                     </span>
                 </div>
@@ -399,25 +402,27 @@
                 <ul class="space-y-3 text-sm text-slate-200 leading-relaxed pt-2">
                     <li class="flex items-start gap-3">
                         <i class="fa-solid fa-check text-cyan-400 mt-1"></i>
-                        <span id="txt-exp-b1">Membuat aplikasi surat-menyurat berbasis web untuk efisiensi administrasi.</span>
+                        <span id="txt-iain-b1">Membuat aplikasi surat-menyurat berbasis web untuk efisiensi administrasi.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i class="fa-solid fa-check text-cyan-400 mt-1"></i>
-                        <span id="txt-exp-b2">Melakukan troubleshooting hardware komputer, perbaikan jaringan Wi-Fi, dan penanganan mesin printer.</span>
+                        <span id="txt-iain-b2">Melakukan troubleshooting hardware komputer, perbaikan jaringan Wi-Fi, dan penanganan mesin printer.</span>
                     </li>
-                     <li class="flex items-start gap-3">
+                    <li class="flex items-start gap-3">
                         <i class="fa-solid fa-check text-cyan-400 mt-1"></i>
-                        <span id="txt-exp-b2">Mengelola dan meng-update website resmi IAIN Ponorogo, termasuk penambahan tab dan halaman baru.</span>
+                        <span id="txt-iain-b3">Mengelola dan meng-update website resmi IAIN Ponorogo, termasuk penambahan tab dan halaman baru.</span>
                     </li>
                 </ul>
             </div>
+
+            <!-- Blockchain Co-Founder -->
             <div class="glass-card rounded-2xl p-6 sm:p-8 space-y-4">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800/80 pb-4">
                     <div>
                         <h3 class="text-xl font-bold text-white">Blockchain Specialist & Co-Founder</h3>
                         <p class="text-xs font-mono text-cyan-400">4A Company</p>
                     </div>
-                    <span id="txt-exp-date" class="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-800 text-cyan-300 font-mono text-xs w-max">
+                    <span class="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-800 text-cyan-300 font-mono text-xs w-max">
                          2021 - 2024
                     </span>
                 </div>
@@ -425,19 +430,18 @@
                 <ul class="space-y-3 text-sm text-slate-200 leading-relaxed pt-2">
                     <li class="flex items-start gap-3">
                         <i class="fa-solid fa-check text-cyan-400 mt-1"></i>
-                        <span id="txt-exp-b1">Mengelola dan menguji infrastruktur node secara aktif pada jaringan Testnet dan Mainnet.</span>
+                        <span id="txt-bc-b1">Mengelola dan menguji infrastruktur node secara aktif pada jaringan Testnet dan Mainnet.</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <i class="fa-solid fa-check text-cyan-400 mt-1"></i>
-                        <span id="txt-exp-b2">Membangun dan mengembangkan proyek blockchain bersama 4 anggota tim inti lintas perguruan tinggi.</span>
+                        <span id="txt-bc-b2">Membangun dan mengembangkan proyek blockchain bersama 4 anggota tim inti lintas perguruan tinggi.</span>
                     </li>
-                     <li class="flex items-start gap-3">
+                    <li class="flex items-start gap-3">
                         <i class="fa-solid fa-check text-cyan-400 mt-1"></i>
-                        <span id="txt-exp-b2">Mengoordinasikan pengujian performa jaringan serta integrasi aset digital dalam ekosistem blockchain.</span>
+                        <span id="txt-bc-b3">Mengoordinasikan pengujian performa jaringan serta integrasi aset digital dalam ekosistem blockchain.</span>
                     </li>
                 </ul>
             </div>
-
         </section>
 
         <!-- ================= PAGE 5: PENDIDIKAN (EDUCATION) ================= -->
@@ -475,7 +479,7 @@
                             <span id="txt-pens-b2">Mengembangkan pemikiran analitis dan pemecahan masalah teknis yang kompleks melalui berbagai proyek akademik.</span>
                         </li>
                     </ul>
-
+                </div>
 
                 <!-- SMKN 1 Jenangan -->
                 <div class="glass-card rounded-2xl p-6 space-y-3">
@@ -588,7 +592,7 @@
 
     <!-- AUTOMATIC BACKGROUND MUSIC SCRIPT -->
     <script>
-        const audioUrl = 'audio.mp3'; // Lokasi audio mp3 lokal
+        const audioUrl = 'audio.mp3';
         let bgAudio = new Audio(audioUrl);
         bgAudio.loop = true;
         bgAudio.volume = 0.45;
@@ -608,7 +612,6 @@
             }
         }
 
-        // Trigger autoplay pada klik/sentuhan pertama pengguna
         document.addEventListener('click', startAudioLoop);
         document.addEventListener('touchstart', startAudioLoop);
     </script>
@@ -621,16 +624,24 @@
             ID: {
                 badge: "TERBUKA UNTUK PELUANG",
                 welcome: "Selamat datang di portofolio",
-                homeDesc: "Menggabungkan logika pemrograman & analisis sistem dengan kreativitas pembuatan konten digital & penyuntingan video yang dinamis.",
+                homeDesc: "Menghubungkan solusi teknis IT dan media kreatif digital.",
                 btnContact: "HUBUNGI SAYA",
                 summaryTitle: "RINGKASAN PROFESIONAL",
                 summarySub: "Ringkasan Profil & Kompetensi",
-                summaryBody: "Profesional teknologi yang adaptif dan terdedikasi dengan latar belakang pendidikan yang kuat di bidang Teknik Informatika dan Rekayasa Perangkat Lunak. Memiliki kombinasi unik antara keahlian teknis dalam analisis sistem dan logika pemrograman, dipadukan dengan kreativitas digital tinggi sebagai Video Editor. Berpengalaman dalam merancang alur kerja sistem dan memproduksi konten visual yang menarik. Berkomitmen untuk memberikan kontribusi optimal dan solusi digital yang efisien guna mendorong pertumbuhan perusahaan.",
+                summaryBody: "Profesional teknologi serbaguna dengan fondasi kuat dalam IT, lingkungan pengembangan web, dan produksi kreatif digital. Saya menggabungkan analisis sistem dan logika pemrograman dengan penyuntingan video berdampak tinggi, desain grafis, serta paska-produksi audio menggunakan Adobe After Effects, CapCut, Photoshop, Audacity, dan Canva.",
                 skillsTitle: "KEAHLIAN & TEKNOLOGI",
                 expTitle: "PENGALAMAN & PROYEK INDEPENDEN",
                 expDate: "2024 - Sekarang",
                 expB1: "Mengelola, memproduksi, dan mengeksekusi proses penyuntingan konten visual digital secara berkala untuk mengoptimalkan keterlibatan penonton.",
                 expB2: "Menerapkan teknik penyuntingan yang dinamis untuk menghasilkan produk multimedia berkualitas tinggi sesuai kebutuhan platform digital.",
+                iainSub: "IAIN Ponorogo (Program Magang 3 Bulan | PKL)",
+                iainDate: "Januari 2019 - Maret 2019",
+                iainB1: "Membuat aplikasi surat-menyurat berbasis web untuk efisiensi administrasi.",
+                iainB2: "Melakukan troubleshooting hardware komputer, perbaikan jaringan Wi-Fi, dan penanganan mesin printer.",
+                iainB3: "Mengelola dan meng-update website resmi IAIN Ponorogo, termasuk penambahan tab dan halaman baru.",
+                bcB1: "Mengelola dan menguji infrastruktur node secara aktif pada jaringan Testnet dan Mainnet.",
+                bcB2: "Membangun dan mengembangkan proyek blockchain bersama 4 anggota tim inti lintas perguruan tinggi.",
+                bcB3: "Mengoordinasikan pengujian performa jaringan serta integrasi aset digital dalam ekosistem blockchain.",
                 eduTitle: "RIWAYAT PENDIDIKAN",
                 pensDept: "Fokus Studi Teknik Informatika",
                 pensB1: "Mempelajari arsitektur perangkat lunak, struktur data, pemrograman berorientasi objek, dan manajemen basis data.",
@@ -651,22 +662,30 @@
             EN: {
                 badge: "OPEN FOR OPPORTUNITIES",
                 welcome: "Welcome to portfolio",
-                homeDesc: "Combining programming logic & system analysis with digital content creation and dynamic video editing.",
+                homeDesc: "Connecting technical IT solutions and digital creative media.",
                 btnContact: "CONTACT ME",
                 summaryTitle: "PROFESSIONAL SUMMARY",
-                summarySub: "Profile & Core Competencies",
-                summaryBody: "An adaptive and dedicated technology professional with a strong educational background in Informatics Engineering and Software Engineering. Possesses a unique blend of technical expertise in system analysis and programming logic, combined with high digital creativity as a Video Editor. Experienced in designing system workflows and producing engaging visual content. Committed to delivering optimal contributions and efficient digital solutions to drive company growth.",
+                summarySub: "Profile & Competencies Summary",
+                summaryBody: "A versatile technology professional with a strong foundation in IT, web development environments, and digital creative production. I combine system analysis and programming logic with high-impact video editing, graphic design, and audio post-production using Adobe After Effects, CapCut, Photoshop, Audacity, and Canva.",
                 skillsTitle: "SKILLS & TECHNOLOGIES",
                 expTitle: "EXPERIENCE & INDEPENDENT PROJECTS",
                 expDate: "2024 - Present",
                 expB1: "Manage, produce, and execute the editing process for digital visual content on a regular basis to optimize audience engagement.",
                 expB2: "Apply dynamic editing techniques to deliver high-quality multimedia products tailored to digital platform requirements.",
+                iainSub: "IAIN Ponorogo (3-Month Internship Program | PKL)",
+                iainDate: "January 2019 - March 2019",
+                iainB1: "Developed a web-based correspondence application to improve administrative efficiency.",
+                iainB2: "Performed computer hardware troubleshooting, Wi-Fi network repairs, and printer maintenance.",
+                iainB3: "Managed and updated the official IAIN Ponorogo website, including adding new tabs and pages.",
+                bcB1: "Actively managed and tested node infrastructure on Testnet and Mainnet networks.",
+                bcB2: "Built and developed blockchain projects alongside 4 core inter-university team members.",
+                bcB3: "Coordinated network performance testing and digital asset integration within the blockchain ecosystem.",
                 eduTitle: "EDUCATIONAL BACKGROUND",
                 pensDept: "Focused Studies in Informatics Engineering",
-                pensB1: "Pursued higher education with a focus on software architecture, data structures, object-oriented programming, and database management.",
+                pensB1: "Studied software architecture, data structures, object-oriented programming, and database management.",
                 pensB2: "Developed analytical thinking and complex technical problem-solving skills through various academic projects.",
                 smkDept: "Major in Software Engineering",
-                smkB1: "Studied core concepts of programming algorithms, web and desktop application development, and the Software Development Life Cycle (SDLC).",
+                smkB1: "Studied core concepts of programming algorithms, web & desktop application development, and the Software Development Life Cycle (SDLC).",
                 contactTitle: "CONTACT INFORMATION",
                 contactSub: "Reach Out to Me Through the Following Channels",
                 lblLoc: "LOCATION",
@@ -695,15 +714,24 @@
             document.getElementById('txt-summary-body').innerText = data.summaryBody;
             document.getElementById('txt-skills-title').innerText = data.skillsTitle;
             document.getElementById('txt-exp-title').innerText = data.expTitle;
-            document.getElementById('txt-exp-date').innerText = data.expDate;
-            document.getElementById('txt-exp-b1').innerText = data.expB1;
-            document.getElementById('txt-exp-b2').innerText = data.expB2;
+            if(document.getElementById('txt-exp-date')) document.getElementById('txt-exp-date').innerText = data.expDate;
+            if(document.getElementById('txt-exp-b1')) document.getElementById('txt-exp-b1').innerText = data.expB1;
+            if(document.getElementById('txt-exp-b2')) document.getElementById('txt-exp-b2').innerText = data.expB2;
+
+            if(document.getElementById('txt-iain-sub')) document.getElementById('txt-iain-sub').innerText = data.iainSub;
+            if(document.getElementById('txt-iain-date')) document.getElementById('txt-iain-date').innerText = data.iainDate;
+            if(document.getElementById('txt-iain-b1')) document.getElementById('txt-iain-b1').innerText = data.iainB1;
+            if(document.getElementById('txt-iain-b2')) document.getElementById('txt-iain-b2').innerText = data.iainB2;
+            if(document.getElementById('txt-iain-b3')) document.getElementById('txt-iain-b3').innerText = data.iainB3;
+
+            if(document.getElementById('txt-bc-b1')) document.getElementById('txt-bc-b1').innerText = data.bcB1;
+            if(document.getElementById('txt-bc-b2')) document.getElementById('txt-bc-b2').innerText = data.bcB2;
+            if(document.getElementById('txt-bc-b3')) document.getElementById('txt-bc-b3').innerText = data.bcB3;
+
             document.getElementById('txt-edu-title').innerText = data.eduTitle;
             document.getElementById('txt-pens-dept').innerText = data.pensDept;
             document.getElementById('txt-pens-b1').innerText = data.pensB1;
             document.getElementById('txt-pens-b2').innerText = data.pensB2;
-            document.getElementById('txt-pens-status-lbl').innerText = data.pensStatusLbl;
-            document.getElementById('txt-pens-note').innerHTML = data.pensNote;
             document.getElementById('txt-smk-dept').innerText = data.smkDept;
             document.getElementById('txt-smk-b1').innerText = data.smkB1;
             document.getElementById('txt-contact-title').innerText = data.contactTitle;
